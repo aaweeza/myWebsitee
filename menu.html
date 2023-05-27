@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+	<title>Menu | CraveLabs</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+	<nav>
+		<div class="logo">
+			<a href="index.html">CraveLabs</a>
+		</div>
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="menu.html">MENU</a></li>
+			<li><a href="about.html">ABOUT US</a></li>
+			<li><a href="contact us.html">CONTACT US</a></li>
+			<li><a href="reservation.html">RESERVATION</a></li>
+		</ul>
+	</nav>
+	<div class="MENU">
+		<h1 class="m1">MENU</h1>
+		<h2 class="m2">BURGERS</h2>
+		<ul>
+			<li>
+				<div class="item">
+					<div class="item-image">
+						<img src="https://groundbeefrecipes.com/wp-content/uploads/double-bacon-cheeseburger-recipe-6-500x500.jpg">
+					</div>
+					<div class="item-details">
+						<h3>The Big Bang Burger</h3>
+						<p>Price: 900 PKR</p>
+						<p>A burger with two patties, bacon, cheese, lettuce, tomato, and sauce on a sesame seed bun.</p>
+						<button class="order-button" onclick="order('The Big Bang Burger', 900)">Order</button>
+					</div>
+				</div>
+			</li>
+			<!--end of item1-->
+			
+			<!--item2-->
+			<li>
+				<div class="item">
+					<div class="item-image">
+						<img src="https://www.recipetineats.com/wp-content/uploads/2019/08/Avocado-Chicken-Burgers_9.jpg?w=500&h=500&crop=1">
+					</div>
+					<div class="item-details">
+						<h3>The Infinity Burger</h3>
+						<p>Price: 800 PKR</p>
+						<p>A grilled chicken burger with avocado, Swiss cheese, lettuce, tomato, and mayo on a brioche bun.</p>
+						<button class="order-button" onclick="order('The Infinity Burger', 800)">Order</button>
+					</div>
+				</div>
+			</li>
+			<!--end of item2-->
+
+			<!--item3-->
+			<li>
+				<div class="item">
+					<div class="item-image">
+						<img src="https://s7d1.scene7.com/is/image/mcdonalds/mcdonalds-mcplant-new:1-4-product-tile-desktop">
+					</div>
+					<div class="item-details">
+						<h3>The 8-Bit Burger</h3>
+						<p>Price: 800 PKR</p>
+						<p>A veggie burger with roasted red pepper, feta cheese, lettuce, tomato, and pesto mayo on a whole wheat bun.</p>
+						<button class="order-button" onclick="order('The 8-Bit Burger', 800)">Order</button>
+					</div>
+				</div>
+			</li>
+			<!--end of item3-->
+
+			<!--item4-->
+			<li>
+				<div class="item">
+					<div class="item-image">
+						<img src="https://grandbaby-cakes.com/wp-content/uploads/2021/05/Black-Bean-Burgers-6.jpg">
+					</div>
+					<div class="item-details">
+						<h3>The Galactic Burger</h3>
+						<p>Price: 850 PKR</p>
+						<p>A black bean burger with guacamole, pepper jack cheese, lettuce, tomato, and chipotle mayo on a ciabatta roll.</p>
+						<button class="order-button" onclick="order('The Galactic Burger', 850)">Order</button>
+					</div>
+				</div>
+			</li>
+			<!--end of item4-->
+
+			<!--item5-->
+			<li>
+				<div class="item">
+					<div class="item-image">
+						<img src="https://groundbeefrecipes.com/wp-content/uploads/mushroom-swiss-burger-5.jpg">
+					</div>
+					<div class="item-details">
+						<h3>The Space Odyssey Burger</h3>
+						<p>Price: 950 PKR</p>
+						<p> A mushroom and Swiss burger with caramelized onions, lettuce, tomato, and truffle mayo on a pretzel bun.</p>
+						<button class="order-button" onclick="order('The Space Odyssey Burger', 950)">Order</button>
+					</div>
+				</div>
+			</li>
+			<!--end of item5-->
+
+        <h2 class="m2">PIZZAS</h2>
+        			<!--item6-->
+			<li>
+				<div class="item">
+					<div class="item-image">
+						<img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F19%2F2014%2F07%2F10%2Fpepperoni-pizza-ck-x.jpg&q=60">
+					</div>
+					<div class="item-details">
+						<h3>The Pepperoni Nebula Pizza</h3>
+						<p>Price: 950 PKR</p>
+						<p> A pizza with classic tomato sauce, mozzarella cheese, and tons of pepperoni.</p>
+						<button class="order-button" onclick="order('The Pepperoni Nebula Pizza', 950)">Order</button>
+					</div>
+				</div>
+			</li>
+			<!--end of item6-->
+
+			<!--item7-->
+			<li>
+				<div class="item">
+					<div class="item-image">
+						<img src="https://www.healthylifetrainer.com/wp-content/uploads/2022/03/Homemade-Spinach-Mushroom-Pizza-5.jpg">
+					</div>
+					<div class="item-details">
+						<h3>The Veggie Voyager Pizza</h3>
+						<p>Price: 1000 PKR</p>
+						<p>  A pizza with tomato sauce, mozzarella cheese, green peppers, mushrooms, onions, black olives, and spinach.</p>
+						<button class="order-button" onclick="order('The Veggie Voyager Pizza', 1000)">Order</button>
+					</div>
+				</div>
+			</li>
+			<!--end of item7-->
+
+			<!--item8-->
+			<li>
+				<div class="item">
+					<div class="item-image">
+						<img src="https://previews.123rf.com/images/dedmityay/dedmityay1703/dedmityay170300223/74863631-pizza-composition-sauce-mozzarella-cheese-pepperoni-sausage-ham-bacon-chicken-breast-greens.jpg">
+					</div>
+					<div class="item-details">
+						<h3>The Meaty Meteor Pizza</h3>
+						<p>Price: 1000 PKR</p>
+						<p> A pizza with tomato sauce, mozzarella cheese, bacon, sausage, ham, and pepperoni.</p>
+						<button class="order-button" onclick="order('The Meaty Meteor Pizza', 1000)">Order</button>
+					</div>
+				</div>
+			</li>
+			<!--end of item8-->
+        <h2 class="m2">PASTAS</h2>
+
+            <!--item9-->
+			<li>
+				<div class="item">
+					<div class="item-image">
+						<img src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2Farchive%2Fc54907276a7cb6e0545ae2128bdc984e86b6cb9d">
+					</div>
+					<div class="item-details">
+						<h3>The Alfredo Algorithm</h3>
+						<p>Price: 1000 PKR</p>
+						<p> A classic fettuccine alfredo with garlic, parmesan cheese, and cream sauce.</p>
+						<button class="order-button" onclick="order('The Alfredo Algorithm', 1000)">Order</button>
+					</div>
+				</div>
+			</li>
+			<!--end of item9-->
+
+			<!--item10-->
+			<li>
+				<div class="item">
+					<div class="item-image">
+						<img src="https://static.toiimg.com/photo/58123965.cms">
+					</div>
+					<div class="item-details">
+						<h3>The Mac & Matrix</h3>
+						<p>Price: 1099 PKR</p>
+						<p> A mac and cheese dish with four cheeses, breadcrumbs, and truffle oil</p>
+						<button class="order-button" onclick="order('The Mac & Matrix', 1099)">Order</button>
+					</div>
+				</div>
+			</li>
+			<!--end of item10-->
+
+			<!--item11-->
+			<li>
+				<div class="item">
+					<div class="item-image">
+						<img src="https://hips.hearstapps.com/hmg-prod/images/homemade-spaghetti-sauce-horizontal-1530890913.jpg?crop=0.8890666666666666xw:1xh;center,top&resize=1200:*">
+					</div>
+					<div class="item-details">
+						<h3>The Spaghetti Syntax</h3>
+						<p>Price: 1199 PKR</p>
+						<p> A spaghetti pasta with bolognese sauce, parmesan cheese, and fresh herbs A mac and cheese dish with four cheeses, breadcrumbs, and truffle oil.  </p>
+			<button class="order-button" onclick="order('The Spaghetti Syntax', 1199)">Order</button>
+					</div>
+				</div>
+			</li>
+			<!--end of item11-->
+
+		</ul>
+	</div>
+	<script>
+		function order(item, price) {
+			alert("You ordered " + item + " for " + price + " PKR");
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,193 @@
+/**INDEX PAGE**/
+body{
+	background-color: #ffd700;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.main{
+	width: 100%;
+}
+.header{
+	background-image: url('image.jpeg');
+	background-size: cover;
+	height: 100vh;
+	background-repeat: no-repeat;
+}
+.logo a {
+	font-size: 40px;
+	color: #ffd700;
+	font-weight: bold;
+	margin-left: 100px;
+}
+
+nav{
+	background-color: black;
+	width: 100%;
+	height: 80px;
+	line-height: 80px; 
+	display: flex;
+	justify-content: space-between;
+}
+a{
+	text-decoration: none; /**removes underline from the home menu abous **/
+	color: white;
+	font size: 20px;
+	font-weight: bold;
+
+}
+ul{
+	margin: 0px;
+	margin-right: 100px;
+}
+ul li {
+	float: left;
+	padding: 0px 15px;
+	list-style: none; /**removes the bullets from home menu**/
+}
+ul li a:hover{
+	color: #ffd700;
+}
+.content{
+	position: absolute;
+	top: 50%;                          /**50% below from top**/
+	left: 50%;                         /**50% away from left**/
+    transform: translate(-50%,-50%);   /**center of page**/
+	color: white;
+	text-align: center;
+	background: rgba(0,0,0,0.5);
+}
+h1{
+	font-size: 50px;
+}
+.b1{
+	background: none;
+	border: 2px solid white;
+	color: white;
+	font-size: 20px;
+	padding: 10px 10px;
+}
+button:hover{
+	background: #ffd700;
+	color: black;
+}
+.overlay{
+	background: rgba(0,0,0,0.5);
+	height: 100vh;
+}
+
+/**RESERVATION PAGE**/
+.reservation-container{
+	color: white;
+	background-color: #042134;
+	display: flex;
+	align-items: center;
+	margin: 20px;
+	border: 1px solid #ffd700;
+	border-radius: 5px;     /**curved border**/
+}
+.I1 {
+	max-width: 500px;
+	margin-right: 20px;
+	height: 110vh;
+}
+form {
+	display: flex;
+	flex-direction: column;
+}
+label {
+	margin-top: 10px;
+}
+
+input {
+	padding: 10px;
+	margin-top: 5px;
+	border: 1px solid ;
+	border-radius: 3px;           /**roundness of boxes**/
+	font-size: 16px;
+}
+.b2{
+	background: black;
+	border: 2px solid white;
+	color: white;
+	font-size: 20px;
+	padding: 10px 10px;
+}
+
+/**END OF RESERVATION PAGE**/
+
+/*CONTACT US PAGE**/
+
+.contact-container{
+	color: black;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	margin: 20px;
+	borde: 1pxr solid #ffd700;
+	border-radius: 5px;     /**curved border**/
+
+}
+.b3{
+	background: black;
+	border: 2px solid black;
+	color: white;
+	font-size: 20px;
+	padding: 10px 10px;
+}
+.I2 {
+	max-width: 500px;
+	margin-right: 20px;
+}
+
+/*END OF CONTACT US PAGE**/
+
+/*ABOUT US PAGE**/
+.about{
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+}
+.overlay2{
+	background: rgba(0,0,0,0.5);
+}
+.content2{
+	font-size: 15px;
+	position: absolute;
+	color: black;
+	text-align: center;
+	background color: #ffd700;
+}
+.a1 {
+	max-width: 500px;}
+
+/*END OF ABOUT US PAGE*/
+
+/*MENU PAGE*/
+.m1{
+	text-align: center;
+	font-weight: bold;
+}
+.m2{
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+}
+.item-image img {
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+
+}
+.item{
+	border-radius: 5px;
+	border: 2px solid black;
+	color: black;
+	display: flex;             /**image and text appear together **/
+	align-items: center;
+	margin: 20px;             /**distance bwtween boxes**/
+	border-radius: 10px;     /**curved border**/
+}
+
+/*END OF MENU PAGE*/
